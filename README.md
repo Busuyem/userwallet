@@ -67,13 +67,13 @@
 
 - Transfer fund (params: from_user_id, to_user_id, amount):
     ```
-    PUT /api/transfer
+    POST /api/transfer
     ```
 
 - Get user wallet balance:
     ```
-    PUT /api//balance/{userId}
+    GET /api//balance/{userId}
     ```
 
-
+<p><b>Note:</b> In idead settings, unique wallet numbers will be generated and refrence number for transaction instead of using user id.</p>
 
